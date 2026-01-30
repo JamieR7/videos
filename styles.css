@@ -89,10 +89,10 @@ body {
 .unit-label {
     background: #fbba07;
     color: #004587;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    padding: 0.75rem 1.25rem;
-    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
     display: inline-block;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
