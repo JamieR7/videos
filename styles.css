@@ -93,10 +93,25 @@ body {
     font-weight: 700;
     padding: 1rem 1.5rem;
     border-radius: 10px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    gap: 1rem;
+}
+
+.label-text {
+    flex: 1;
+}
+
+.label-emoji {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .unit-title {
